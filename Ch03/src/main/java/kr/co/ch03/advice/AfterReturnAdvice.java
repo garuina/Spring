@@ -3,7 +3,7 @@ package kr.co.ch03.advice;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AfterReturnAdvice2 {
+public class AfterReturnAdvice {
 	
 	public void afterReturn1() {
 		System.out.println("횡단관심 - afterReturn1...");

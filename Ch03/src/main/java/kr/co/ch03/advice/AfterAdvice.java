@@ -10,7 +10,6 @@ public class AfterAdvice {
 	@Pointcut("execution(* kr.co.ch03.AOPService.insert*(..))")
 	public void insertPointcut() {}
 	
-	
 	@After("insertPointcut()")
 	public void after1() {
 		System.out.println("횡단관심 - after1...");
