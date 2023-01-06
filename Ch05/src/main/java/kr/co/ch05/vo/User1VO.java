@@ -1,6 +1,6 @@
 package kr.co.ch05.vo;
 
-public class User1Vo {
+public class User1VO {
 	private String uid;
 	private String name;
 	private String hp;
